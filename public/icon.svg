@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d9488" />
+      <stop offset="100%" stop-color="#0f766e" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#042f2e" flood-opacity="0.3" />
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="url(#bg)" />
+  <g filter="url(#shadow)">
+    <!-- Shield / Heart silhouette -->
+    <path d="M256 100 C 310 50, 420 80, 420 185 C 420 280, 290 370, 256 405 C 222 370, 92 280, 92 185 C 92 80, 202 50, 256 100 Z" fill="#ffffff" />
+    <!-- Medical Cross -->
+    <path d="M256 160 L256 310 M181 235 L331 235" stroke="#0d9488" stroke-width="36" stroke-linecap="round" />
+    <!-- Pulse Line -->
+    <path d="M150 235 L200 235 L225 180 L256 290 L287 205 L312 235 L362 235" fill="none" stroke="#e11d48" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+</svg>

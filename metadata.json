@@ -1,0 +1,6 @@
+{
+  "name": "CUIDAFAM PRO - Panel Familiar de Salud",
+  "description": "Panel de control integral de salud familiar: registro y gráficas de tensión arterial con semáforo OMS, control de medicación y tomas diarias, gestión de citas médicas y administración segura.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
